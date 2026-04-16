@@ -43,26 +43,18 @@ if (startBtn) startBtn.addEventListener('click', startTimer);
 if (resetBtn) resetBtn.addEventListener('click', resetTimer);
 
 const translations = {
-    ko: {
-        logo: "Pomodoro Insight",
-        home: "Home",
-        blog: "Blog",
-        about: "About",
-        contact: "Contact",
-        heroTitle: "Focus Timer",
-        heroDesc: "포모도로 기법으로 오늘 하루의 효율을 극대화하세요.",
-        latestInsights: "Latest Insights"
-    },
-    en: {
-        logo: "Pomodoro Insight",
-        home: "Home",
-        blog: "Blog",
-        about: "About",
-        contact: "Contact",
-        heroTitle: "Focus Timer",
-        heroDesc: "Maximize your daily efficiency with the Pomodoro technique.",
-        latestInsights: "Latest Insights"
-    }
+    ko: { logo: "Pomodoro Insight", home: "Home", blog: "Blog", about: "About", contact: "Contact", heroTitle: "Focus Timer", heroDesc: "포모도로 기법으로 오늘 하루의 효율을 극대화하세요.", latestInsights: "최신 글" },
+    en: { logo: "Pomodoro Insight", home: "Home", blog: "Blog", about: "About", contact: "Contact", heroTitle: "Focus Timer", heroDesc: "Maximize your daily efficiency with the Pomodoro technique.", latestInsights: "Latest Insights" },
+    hi: { logo: "पोमोडोरो इनसाइट", home: "होम", blog: "ब्लॉग", about: "परिचय", contact: "संपर्क", heroTitle: "फोकस टाइमर", heroDesc: "पोमोडोरो तकनीक के साथ अपनी दैनिक दक्षता को अधिकतम करें।", latestInsights: "नवीनतम जानकारी" },
+    ja: { logo: "ポモドーロ・インサイト", home: "ホーム", blog: "ブログ", about: "概要", contact: "お問い合わせ", heroTitle: "フォーカスタイマー", heroDesc: "ポモドーロテクニックで一日の効率を最大限に高めましょう。", latestInsights: "最新の記事" },
+    zh: { logo: "番茄专注", home: "首页", blog: "博客", about: "关于", contact: "联系", heroTitle: "专注计时器", heroDesc: "利用番茄工作法极大提升您的日常效率。", latestInsights: "最新洞察" },
+    es: { logo: "Pomodoro Insight", home: "Inicio", blog: "Blog", about: "Acerca de", contact: "Contacto", heroTitle: "Temporizador de Enfoque", heroDesc: "Maximiza tu eficiencia diaria con la técnica Pomodoro.", latestInsights: "Últimas publicaciones" },
+    fr: { logo: "Pomodoro Insight", home: "Accueil", blog: "Blog", about: "À propos", contact: "Contact", heroTitle: "Minuteur de Focus", heroDesc: "Maximisez votre efficacité quotidienne avec la technique Pomodoro.", latestInsights: "Derniers articles" },
+    de: { logo: "Pomodoro Insight", home: "Start", blog: "Blog", about: "Über uns", contact: "Kontakt", heroTitle: "Fokus-Timer", heroDesc: "Maximieren Sie Ihre tägliche Effizienz mit der Pomodoro-Technik.", latestInsights: "Neueste Erkenntnisse" },
+    ru: { logo: "Pomodoro Insight", home: "Главная", blog: "Блог", about: "О нас", contact: "Контакты", heroTitle: "Таймер фокуса", heroDesc: "Максимизируйте свою ежедневную эффективность с помощью техники Помодоро.", latestInsights: "Последние статьи" },
+    pt: { logo: "Pomodoro Insight", home: "Início", blog: "Blog", about: "Sobre", contact: "Contato", heroTitle: "Temporizador de Foco", heroDesc: "Maximize sua eficiência diária com a técnica Pomodoro.", latestInsights: "Últimas postagens" },
+    vi: { logo: "Pomodoro Insight", home: "Trang chủ", blog: "Blog", about: "Giới thiệu", contact: "Liên hệ", heroTitle: "Đồng hồ tập trung", heroDesc: "Tối đa hóa hiệu quả hàng ngày của bạn với phương pháp Pomodoro.", latestInsights: "Thông tin mới nhất" },
+    ar: { logo: "بومودورو إنسايت", home: "الرئيسية", blog: "مدونة", about: "حول", contact: "اتصال", heroTitle: "موقت التركيز", heroDesc: "ضاعت كفاءتك اليومية مع تقنية بومودورو.", latestInsights: "أحدث الرؤى" }
 };
 
 const langSelect = document.getElementById('lang-select');
@@ -88,8 +80,7 @@ function switchLanguage(lang) {
     if (heroDesc) heroDesc.textContent = t.heroDesc;
 
     const latestInsights = document.querySelectorAll('.section-title')[1];
-    if (latestInsights && lang === 'en') latestInsights.textContent = "Latest Insights";
-    else if (latestInsights && lang === 'ko') latestInsights.textContent = "최신 글";
+    if (latestInsights) latestInsights.textContent = t.latestInsights;
 }
 
 if (langSelect) {
