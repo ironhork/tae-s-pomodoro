@@ -3,26 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tae's Pomodoro</title>
+    <meta name="description" content="집중력 향상을 위한 최고의 포모도로 타이머와 생산성 팁을 제공합니다.">
+    <title>생산성의 시작, 포모도로 타이머 | Pomodoro Insight</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <div class="timer-box">
-            <div class="mode-buttons">
-                <button id="pomodoro" class="active">Pomodoro</button>
-                <button id="short-break">Short Break</button>
-                <button id="long-break">Long Break</button>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">Pomodoro Insight</a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1 class="section-title">Focus Timer</h1>
+            <div class="timer-container">
+                <div id="timer-display">25:00</div>
+                <div class="timer-controls">
+                    <button id="start-btn" class="btn-primary">START</button>
+                    <button id="reset-btn" class="btn-secondary">RESET</button>
+                </div>
             </div>
-            <div class="timer-display">
-                <span id="minutes">25</span>:<span id="seconds">00</span>
+            <p style="margin-top: 1.5rem; color: #666;">포모도로 기법으로 오늘 하루의 효율을 극대화하세요.</p>
+        </section>
+
+        <section>
+            <h2 class="section-title">Latest Insights</h2>
+            <div class="blog-grid">
+                <article class="blog-card">
+                    <div class="blog-content">
+                        <h3>포모도로 기법이란? 과학적 근거와 효과</h3>
+                        <p>왜 25분 집중하고 5분 쉬는 것이 뇌 과학적으로 유리할까요? 포모도로 기법의 핵심 원리와 도입 효과를 분석합니다.</p>
+                        <a href="posts/post-1.html" class="read-more">전문 읽기 &rarr;</a>
+                    </div>
+                </article>
+                <article class="blog-card">
+                    <div class="blog-content">
+                        <h3>집중력을 200% 높이는 환경 설정</h3>
+                        <p>공부나 업무 효율을 높이기 위해 책상 위와 디지털 환경을 어떻게 정리해야 하는지 구체적인 가이드를 제공합니다.</p>
+                        <a href="posts/post-2.html" class="read-more">전문 읽기 &rarr;</a>
+                    </div>
+                </article>
+                <article class="blog-card">
+                    <div class="blog-content">
+                        <h3>번아웃 방지를 위한 올바른 휴식법</h3>
+                        <p>단순히 스마트폰을 보는 것은 휴식이 아닙니다. 포모도로 사이클 사이의 5분을 가장 가치 있게 보내는 방법을 소개합니다.</p>
+                        <a href="posts/post-3.html" class="read-more">전문 읽기 &rarr;</a>
+                    </div>
+                </article>
             </div>
-            <div class="controls">
-                <button id="start-pause">START</button>
-                <button id="reset">RESET</button>
-            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact</a>
+            <a href="privacy.html">Privacy Policy</a>
         </div>
-    </div>
+        <p>&copy; 2024 Pomodoro Insight. All rights reserved.</p>
+    </footer>
+
     <script src="script.js"></script>
 </body>
 </html>

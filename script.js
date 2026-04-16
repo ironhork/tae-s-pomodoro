@@ -1,84 +1,46 @@
-let timeLeft;
-let timerId = null;
+let timer;
+let timeLeft = 25 * 60;
 let isRunning = false;
-let currentMode = 'pomodoro';
 
-const modes = {
-    pomodoro: 25 * 60,
-    'short-break': 5 * 60,
-    'long-break': 15 * 60
-};
-
-const minutesDisplay = document.getElementById('minutes');
-const secondsDisplay = document.getElementById('seconds');
-const startPauseBtn = document.getElementById('start-pause');
-const resetBtn = document.getElementById('reset');
-const modeButtons = document.querySelectorAll('.mode-buttons button');
+const display = document.getElementById('timer-display');
+const startBtn = document.getElementById('start-btn');
+const resetBtn = document.getElementById('reset-btn');
 
 function updateDisplay() {
     const minutes = Math.floor(timeLeft / 60);
     const seconds = timeLeft % 60;
-    minutesDisplay.textContent = minutes.toString().padStart(2, '0');
-    secondsDisplay.textContent = seconds.toString().padStart(2, '0');
-    document.title = `${minutesDisplay.textContent}:${secondsDisplay.textContent} - Tae's Pomodoro`;
-}
-
-function switchMode(mode) {
-    currentMode = mode;
-    timeLeft = modes[mode];
-    
-    modeButtons.forEach(btn => {
-        btn.classList.toggle('active', btn.id === mode);
-    });
-
-    stopTimer();
-    updateDisplay();
+    display.textContent = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
 }
 
 function startTimer() {
-    if (isRunning) return;
-    
-    isRunning = true;
-    startPauseBtn.textContent = 'PAUSE';
-    
-    timerId = setInterval(() => {
-        timeLeft--;
-        updateDisplay();
-        
-        if (timeLeft <= 0) {
-            clearInterval(timerId);
-            alert('시간이 다 되었습니다!');
-            resetTimer();
-        }
-    }, 1000);
-}
-
-function stopTimer() {
-    isRunning = false;
-    startPauseBtn.textContent = 'START';
-    clearInterval(timerId);
+    if (isRunning) {
+        clearInterval(timer);
+        startBtn.textContent = 'START';
+    } else {
+        timer = setInterval(() => {
+            timeLeft--;
+            updateDisplay();
+            if (timeLeft <= 0) {
+                clearInterval(timer);
+                alert('Time is up!');
+                resetTimer();
+            }
+        }, 1000);
+        startBtn.textContent = 'PAUSE';
+    }
+    isRunning = !isRunning;
 }
 
 function resetTimer() {
-    stopTimer();
-    timeLeft = modes[currentMode];
+    clearInterval(timer);
+    timeLeft = 25 * 60;
+    isRunning = false;
+    startBtn.textContent = 'START';
     updateDisplay();
 }
 
-startPauseBtn.addEventListener('click', () => {
-    if (isRunning) {
-        stopTimer();
-    } else {
-        startTimer();
-    }
-});
-
-resetBtn.addEventListener('click', resetTimer);
-
-modeButtons.forEach(btn => {
-    btn.addEventListener('click', () => switchMode(btn.id));
-});
+if (startBtn) startBtn.addEventListener('click', startTimer);
+if (resetBtn) resetBtn.addEventListener('click', resetTimer);
 
 // Initialize
-timeLeft = modes[currentMode];
-updateDisplay();
+if (display) updateDisplay();
