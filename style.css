@@ -47,6 +47,23 @@ nav {
 nav ul {
     display: flex;
     list-style: none;
+    align-items: center;
+}
+
+.lang-selector {
+    margin-left: 2rem;
+    padding: 0.3rem 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: white;
+    font-family: inherit;
+    font-size: 0.9rem;
+    cursor: pointer;
+    outline: none;
+}
+
+.lang-selector:hover {
+    border-color: var(--accent-color);
 }
 
 nav ul li {
