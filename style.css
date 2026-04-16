@@ -1,0 +1,98 @@
+:root {
+    --bg-color: #121212;
+    --box-bg: #1e1e1e;
+    --text-primary: #ffffff;
+    --accent-color: #ff5252;
+    --btn-hover: #ff7675;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+.timer-box {
+    background-color: var(--box-bg);
+    padding: 3rem;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    width: 400px;
+}
+
+.mode-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.mode-buttons button {
+    background: transparent;
+    border: none;
+    color: #888;
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+.mode-buttons button.active {
+    color: var(--text-primary);
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.timer-display {
+    font-size: 6rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    font-variant-numeric: tabular-nums;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.controls button {
+    padding: 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+#start-pause {
+    background-color: var(--text-primary);
+    color: var(--bg-color);
+}
+
+#start-pause:hover {
+    background-color: #e0e0e0;
+}
+
+#reset {
+    background-color: transparent;
+    color: #888;
+}
+
+#reset:hover {
+    color: var(--text-primary);
+}
