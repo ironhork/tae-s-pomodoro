@@ -173,36 +173,41 @@ function applyLanguage(lang) {
     });
 
     // Page-specific content
-    if (path.includes('about.html')) {
+    const isAbout = path.endsWith('about.html');
+    const isContact = path.endsWith('contact.html');
+    const isPost1 = path.endsWith('post-1.html');
+    const isPost2 = path.endsWith('post-2.html');
+    const isPost3 = path.endsWith('post-3.html');
+
+    if (isAbout) {
         const title = document.querySelector('main .section-title');
         if (title) title.textContent = t.aboutTitle;
         const desc = document.querySelector('.hero p');
         if (desc) desc.textContent = t.aboutContent;
-    } else if (path.includes('contact.html')) {
+    } else if (isContact) {
         const title = document.querySelector('main .section-title');
         if (title) title.textContent = t.contactTitle;
         const desc = document.querySelector('.hero p');
         if (desc) desc.textContent = t.contactDesc;
-    } else if (path.includes('post-1.html')) {
+    } else if (isPost1) {
         const article = document.querySelector('article.hero');
         if (article && t.post1Full) article.innerHTML = t.post1Full;
-    } else if (path.includes('post-2.html')) {
+    } else if (isPost2) {
         const article = document.querySelector('article.hero');
         if (article && t.post2Full) article.innerHTML = t.post2Full;
-    } else if (path.includes('post-3.html')) {
+    } else if (isPost3) {
         const article = document.querySelector('article.hero');
         if (article && t.post3Full) article.innerHTML = t.post3Full;
     } else {
-        // Home/Default Page
+        // Home/Default Page (index.html or root)
         const heroTitle = document.querySelector('.hero .section-title');
         if (heroTitle) heroTitle.textContent = t.heroTitle;
         const heroDesc = document.querySelector('.hero p');
-        if (heroDesc) heroDesc.textContent = t.heroDesc;
+        if (heroDesc && !isAbout && !isContact) heroDesc.textContent = t.heroDesc;
 
         const sectionTitles = document.querySelectorAll('.section-title');
         if (sectionTitles[1]) sectionTitles[1].textContent = t.latestInsights;
         
-        // Blog Cards Translation
         const blogCards = document.querySelectorAll('.blog-card');
         if (blogCards.length >= 3) {
             blogCards[0].querySelector('h3').textContent = t.post1Title;
@@ -214,22 +219,13 @@ function applyLanguage(lang) {
         }
     }
 
-    document.querySelectorAll('.read-more').forEach(el => el.textContent = t.readMore);
-
-    const footerP = document.querySelector('footer p');
-    if (footerP) footerP.textContent = t.footerRights;
-
-    if (startBtn) {
-        startBtn.textContent = isRunning ? t.pause : t.start;
-    }
-
     // Set document title language
     let pageTitle = t.heroTitle;
-    if (path.includes('about.html')) pageTitle = t.aboutTitle;
-    else if (path.includes('contact.html')) pageTitle = t.contactTitle;
-    else if (path.includes('post-1.html')) pageTitle = t.post1Title;
-    else if (path.includes('post-2.html')) pageTitle = t.post2Title;
-    else if (path.includes('post-3.html')) pageTitle = t.post3Title;
+    if (isAbout) pageTitle = t.aboutTitle;
+    else if (isContact) pageTitle = t.contactTitle;
+    else if (isPost1) pageTitle = t.post1Title;
+    else if (isPost2) pageTitle = t.post2Title;
+    else if (isPost3) pageTitle = t.post3Title;
     
     document.title = `${pageTitle} | ${t.logo}`;
 }
