@@ -53,9 +53,9 @@ const translations = {
         post1Title: "포모도로 기법이란? 과학적 근거와 효과", post1Desc: "왜 25분 집중하고 5분 쉬는 것이 뇌 과학적으로 유리할까요? 포모도로 기법의 핵심 원리와 도입 효과를 분석합니다.",
         post2Title: "집중력을 200% 높이는 환경 설정", post2Desc: "공부나 업무 효율을 높이기 위해 책상 위와 디지털 환경을 어떻게 정리해야 하는지 구체적인 가이드를 제공합니다.",
         post3Title: "번아웃 방지를 위한 올바른 휴식법", post3Desc: "단순히 스마트폰을 보는 것은 휴식이 아닙니다. 포모도로 사이클 사이의 5분을 가장 가치 있게 보내는 방법을 소개합니다.",
-        post1Full: `<h1 class="section-title">포모도로 기법이란? 과학적 근거와 효과</h1><p>포모도로 기법은 1980년대 후반 프란체스코 시릴로가 제안한 시간 관리 방법론으로, 업무 효율을 비약적으로 높여줍니다.</p><h2>1. 기본 원칙</h2><p>25분 동안 한 가지 작업에만 집중하고, 5분간 짧은 휴식을 취합니다. 이 과정을 4번 반복한 뒤 15~30분간 긴 휴식을 취하는 것이 핵심입니다.</p><h2>2. 뇌 과학적 근거</h2><p>인간의 고도 집중력은 약 20~30분간 지속됩니다. 25분은 뇌가 피로를 느끼기 전 몰입을 극대화할 수 있는 최적의 시간이며, 규칙적인 휴식은 인지적 피로를 방지합니다.</p><h2>3. 효과적인 도입 팁</h2><p>물리적인 타이머를 사용하여 마감 임박 효과를 조성하고, 하나의 포모도로 사이클에는 반드시 하나의 작업만 배정하여 멀티태스킹을 피하세요.</p>`,
-        post2Full: `<h1 class="section-title">집중력을 200% 높이는 환경 설정</h1><p>물리적, 디지털 환경의 정리는 집중력 유지의 핵심입니다.</p><h2>1. 물리적 환경 (데스크테리어)</h2><p>시각적 자극은 뇌 자원을 소모합니다. 관련 없는 물건을 치우고 필수품만 가까이 두세요. 자연광에 가까운 조명을 사용하는 것이 눈의 피로를 줄입니다.</p><h2>2. 디지털 방해 금지 (디지털 미니멀리즘)</h2><p>알림은 집중력의 적입니다. 휴대폰을 보이지 않는 곳에 두거나 방해 금지 모드를 사용하세요. 현재 작업과 무관한 브라우저 창과 탭은 모두 닫으세요.</p><h2>3. 청각적 환경</h2><p>백색 소음이나 카페 소음(40-60dB)은 적막보다 창의적 사고에 도움이 됩니다. 가사가 없는 로파이(Lo-fi)나 클래식 음악을 활용하여 몰입 환경을 조성하세요.</p>`,
-        post3Full: `<h1 class="section-title">번아웃 방지를 위한 올바른 휴식법</h1><p>진정한 휴식은 뇌에 입력되는 자극을 완전히 차단하는 것입니다.</p><h2>1. 마음 챙김 휴식</h2><p>5분간 눈을 감고 호흡에만 집중하세요. 이는 뇌의 '디폴트 모드 네트워크'를 활성화하여 정보를 정리하고 창의성을 회복하는 데 도움을 줍니다.</p><h2>2. 신체 활성화</h2><p>자리에서 일어나 가볍게 몸을 움직이거나 스트레칭을 하세요. 혈액 순환을 돕는 것이 뇌에 산소를 공급하여 다음 사이클의 집중력을 높여줍니다.</p><h2>3. 감각 리셋</h2><p>휴식 중에는 절대 스마트폰을 보지 마세요. 물을 마시거나 먼 곳을 바라보며 시각적 자극을 차단하고 뇌를 진정시키는 것이 중요합니다.</p>`
+        post1Full: `<h1 class="section-title">포모도로 기법이란? 과학적 근거와 효과</h1><p>포모도로 기법(Pomodoro Technique)은 1980년대 후반 프란체스코 시릴로가 제안한 시간 관리 방법론으로, 업무 효율을 비약적으로 높여줍니다.</p><h2>1. 기본 원칙</h2><p>25분 동안 한 가지 작업에만 집중하고, 5분간 짧은 휴식을 취합니다. 이 과정을 4번 반복한 뒤 15~30분간 긴 휴식을 취하는 것이 핵심입니다.</p><h2>2. 뇌 과학적 근거</h2><p>인간의 고도 집중력은 약 20~30분간 지속됩니다. 25분은 뇌가 피로를 느끼기 전 몰입을 극대화할 수 있는 최적의 시간입니다.</p><h2>3. 효과적인 도입 팁</h2><p>물리적인 타이머를 사용하여 마감 임박 효과를 조성하고, 멀티태스킹을 피하세요.</p>`,
+        post2Full: `<h1 class="section-title">집중력을 200% 높이는 환경 설정</h1><p>물리적, 디지털 환경의 정리는 집중력 유지의 핵심입니다.</p><h2>1. 물리적 환경 (데스크테리어)</h2><p>시각적 자극은 뇌 자원을 소모합니다. 관련 없는 물건을 치우고 필수품만 가까이 두세요. 자연광에 가까운 조명을 사용하는 것이 좋습니다.</p><h2>2. 디지털 방해 금지 (디지털 미니멀리즘)</h2><p>알림은 집중력의 적입니다. 휴대폰을 보이지 않는 곳에 두거나 방해 금지 모드를 사용하세요. 불필요한 탭은 모두 닫으세요.</p><h2>3. 청각적 환경 활용</h2><p>백색 소음이나 카페 소음(40-60dB)은 적막보다 창의적 사고에 도움이 됩니다. 가사가 없는 로파이나 클래식을 활용하세요.</p>`,
+        post3Full: `<h1 class="section-title">번아웃 방지를 위한 올바른 휴식 방법</h1><p>열심히 일하는 것만큼 중요한 것이 바로 잘 쉬는 것입니다. 많은 현대인들이 휴식 시간에 스마트폰을 보며 시간을 보내지만, 이는 뇌를 진정으로 쉬게 하는 것이 아닙니다.</p><h2>1. 뇌를 쉬게 하는 '진정한 휴식'</h2><p>스마트폰으로 SNS를 보거나 뉴스 기사를 읽는 행위는 뇌에 끊임없이 새로운 시각 정보와 자극을 주입하는 과정입니다. 진정한 휴식은 뇌에 입력되는 정보를 차단하는 것입니다. 5분 동안 눈을 감고 명상을 하거나, 먼 곳을 바라보며 멍하게 있는 것이 훨씬 효과적입니다.</p><h2>2. 신체 활동의 병행</h2><p>작업 중에 굳어있던 몸을 가벼운 스트레칭으로 풀어주는 것은 뇌로 가는 혈류량을 늘려줍니다. 앉아만 있지 말고 일어나서 물을 한 잔 마시거나 짧게 걷는 습관을 들이세요.</p>`
     },
     en: { 
         logo: "Pomodoro Insight", home: "Home", blog: "Blog", about: "About", contact: "Contact", privacy: "Privacy Policy", heroTitle: "Focus Timer", heroDesc: "Maximize your daily efficiency with the Pomodoro technique.", latestInsights: "Latest Insights", readMore: "Read More →", footerRights: "© 2024 Pomodoro Insight. All rights reserved.", aboutTitle: "About Pomodoro Insight", aboutContent: "Pomodoro Insight is a professional productivity community created to help busy modern people manage their time more efficiently and improve their quality of life.", contactTitle: "Contact Us", contactDesc: "If you have any partnership inquiries or suggestions, please contact us via email below.", start: "START", pause: "PAUSE", timeUp: "Time is up!",
@@ -183,6 +183,8 @@ function applyLanguage(lang) {
     const isPost2 = path.includes('post-2.html');
     const isPost3 = path.includes('post-3.html');
 
+    const mainArticle = document.querySelector('main article.hero');
+
     if (isAbout) {
         const title = document.querySelector('main .section-title');
         if (title) title.textContent = t.aboutTitle;
@@ -194,22 +196,19 @@ function applyLanguage(lang) {
         const desc = document.querySelector('.hero p');
         if (desc) desc.textContent = t.contactDesc;
     } else if (isPost1) {
-        const article = document.querySelector('article.hero');
-        if (article && t.post1Full) {
-            article.innerHTML = t.post1Full;
-            article.style.textAlign = 'left';
+        if (mainArticle && t.post1Full) {
+            mainArticle.innerHTML = t.post1Full;
+            mainArticle.style.textAlign = 'left';
         }
     } else if (isPost2) {
-        const article = document.querySelector('article.hero');
-        if (article && t.post2Full) {
-            article.innerHTML = t.post2Full;
-            article.style.textAlign = 'left';
+        if (mainArticle && t.post2Full) {
+            mainArticle.innerHTML = t.post2Full;
+            mainArticle.style.textAlign = 'left';
         }
     } else if (isPost3) {
-        const article = document.querySelector('article.hero');
-        if (article && t.post3Full) {
-            article.innerHTML = t.post3Full;
-            article.style.textAlign = 'left';
+        if (mainArticle && t.post3Full) {
+            mainArticle.innerHTML = t.post3Full;
+            mainArticle.style.textAlign = 'left';
         }
     } else {
         // Home/Default Page (index.html or root)
