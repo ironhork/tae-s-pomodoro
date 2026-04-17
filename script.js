@@ -177,11 +177,11 @@ function applyLanguage(lang) {
     });
 
     // Page-specific content
-    const isAbout = path.endsWith('about.html');
-    const isContact = path.endsWith('contact.html');
-    const isPost1 = path.endsWith('post-1.html');
-    const isPost2 = path.endsWith('post-2.html');
-    const isPost3 = path.endsWith('post-3.html');
+    const isAbout = path.includes('about.html');
+    const isContact = path.includes('contact.html');
+    const isPost1 = path.includes('post-1.html');
+    const isPost2 = path.includes('post-2.html');
+    const isPost3 = path.includes('post-3.html');
 
     if (isAbout) {
         const title = document.querySelector('main .section-title');
@@ -195,13 +195,22 @@ function applyLanguage(lang) {
         if (desc) desc.textContent = t.contactDesc;
     } else if (isPost1) {
         const article = document.querySelector('article.hero');
-        if (article && t.post1Full) article.innerHTML = t.post1Full;
+        if (article && t.post1Full) {
+            article.innerHTML = t.post1Full;
+            article.style.textAlign = 'left';
+        }
     } else if (isPost2) {
         const article = document.querySelector('article.hero');
-        if (article && t.post2Full) article.innerHTML = t.post2Full;
+        if (article && t.post2Full) {
+            article.innerHTML = t.post2Full;
+            article.style.textAlign = 'left';
+        }
     } else if (isPost3) {
         const article = document.querySelector('article.hero');
-        if (article && t.post3Full) article.innerHTML = t.post3Full;
+        if (article && t.post3Full) {
+            article.innerHTML = t.post3Full;
+            article.style.textAlign = 'left';
+        }
     } else {
         // Home/Default Page (index.html or root)
         const heroTitle = document.querySelector('.hero .section-title');
