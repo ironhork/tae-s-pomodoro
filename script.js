@@ -67,10 +67,13 @@ const translations = {
         post3Full: `<h1 class="section-title">Correct Resting Methods to Prevent Burnout</h1><p>True rest means completely cutting off input to the brain.</p><h2>1. Closed-eye Meditation</h2><p>Closing your eyes for 5 minutes and focusing on breathing helps the brain organize information.</p><h2>2. Light Stretching</h2><p>Getting up and moving slightly helps blood circulation and physical recovery.</p>`
         },
     hi: { 
-        logo: "पोमोडोरो इनसाइट", home: "होम", blog: "ब्लॉग", about: "परिचय", contact: "संपर्क", heroTitle: "फोकस टाइमर", heroDesc: "पोमोडोरो तकनीक के साथ अपनी दैनिक दक्षता को अधिकतम करें।", latestInsights: "नवीनतम जानकारी", readMore: "अधिक पढ़ें →", footerRights: "© 2024 पोमोडोरो इनसाइट। सर्वाधिकार सुरक्षित।", aboutTitle: "पोमोडोरो इनसाइट के बारे में", aboutContent: "पोमोडोरो इनसाइट एक पेशेवर उत्पादकता समुदाय है जो व्यस्त आधुनिक लोगों को अपना समय अधिक कुशलता से प्रबंधित करने और उनके जीवन की गुणवत्ता में सुधार करने में मदद करने के लिए बनाया गया है।", contactTitle: "संपर्क करें", contactDesc: "यदि आपके पास कोई साझेदारी पूछताछ या सुझाव है, तो कृपया नीचे दिए गए ईमेल के माध्यम से हमसे संपर्क करें।", start: "शुरू", pause: "रुकें", timeUp: "समय समाप्त!",
+        logo: "पोमोडोरो इनसाइट", home: "होम", blog: "ब्लॉग", about: "परिचय", contact: "संपर्क", privacy: "गोपनीयता नीति", heroTitle: "फोकस टाइमर", heroDesc: "पोमोडोरो तकनीक के साथ अपनी दैनिक दक्षता को अधिकतम करें।", latestInsights: "नवीनतम जानकारी", readMore: "अधिक पढ़ें →", footerRights: "© 2024 पोमोडोरो इनसाइट। सर्वाधिकार सुरक्षित।", aboutTitle: "पोमोडोरो इनसाइट के बारे में", aboutContent: "पोमोडोरो इनसाइट एक पेशेवर उत्पादकता समुदाय है जो व्यस्त आधुनिक लोगों को अपना समय अधिक कुशलता से प्रबंधित करने और उनके जीवन की गुणवत्ता में सुधार करने में मदद करने के लिए बनाया गया है।", contactTitle: "संपर्क करें", contactDesc: "यदि आपके पास कोई साझेदारी पूछताछ या सुझाव है, तो कृपया नीचे दिए गए ईमेल के माध्यम से हमसे संपर्क करें।", start: "शुरू", pause: "रुकें", timeUp: "समय समाप्त!",
         post1Title: "पोमोडोरो तकनीक क्या है?", post1Desc: "मस्तिष्क के लिए 25 मिनट का ध्यान और 5 मिनट का आराम क्यों फायदेमंद है?",
         post2Title: "200% फोकस के लिए पर्यावरण सेटअप", post2Desc: "कार्य कुशलता बढ़ाने के लिए अपने डेस्क और डिजिटल वातावरण को व्यवस्थित करने के लिए विशिष्ट गाइड।",
-        post3Title: "बर्नआउट को रोकने के लिए सही विश्राम के तरीके", post3Desc: "बस अपने स्मार्टफोन को देखना आराम नहीं है। अपने 5 मिनट के ब्रेक को प्रभावी ढंग से बिताना सीखें।"
+        post3Title: "बर्नआउट को रोकने के लिए सही विश्राम के तरीके", post3Desc: "बस अपने स्मार्टफोन को देखना आराम नहीं है। अपने 5 मिनट के ब्रेक को प्रभावी ढंग से बिताना सीखें।",
+        post1Full: `<h1 class="section-title">पोमोडोरो तकनीक क्या है?</h1><p>पोमोडोरो तकनीक 1980 के दशक के उत्तरार्ध में फ्रांसेस्को सिरिलो द्वारा विकसित एक समय प्रबंधन पद्धति है।</p><h2>1. बुनियादी सिद्धांत</h2><ul><li>25 मिनट तक एक ही काम पर ध्यान केंद्रित करें।</li><li>5 मिनट का छोटा ब्रेक लें।</li><li>4 चक्रों के बाद, 15-30 मिनट का लंबा ब्रेक लें।</li></ul>`,
+        post2Full: `<h1 class="section-title">200% फोकस के लिए पर्यावरण सेटअप</h1><p>शारीरिक और डिजिटल स्थानों को व्यवस्थित करना एकाग्रता बनाए रखने की कुंजी है।</p><h2>1. डेस्क की सफाई</h2><p>वर्तमान कार्य से संबंधित हर चीज को हटा दें और अच्छी रोशनी बनाए रखें।</p>`,
+        post3Full: `<h1 class="section-title">बर्नआउट को रोकने के लिए सही विश्राम के तरीके</h1><p>सच्चा आराम का मतलब है मस्तिष्क में इनपुट को पूरी तरह से काटना।</p><h2>1. बंद आंखों से ध्यान</h2><p>5 मिनट के लिए अपनी आंखें बंद करना और सांस लेने पर ध्यान केंद्रित करना मस्तिष्क को जानकारी व्यवस्थित करने में मदद करता है।</p>`
     },
     ja: { logo: "ポモドーロ・インサイト", home: "ホーム", blog: "ブログ", about: "概要", contact: "お問い合わせ", privacy: "プライバシーポリシー", heroTitle: "フォーカスタイマー", heroDesc: "ポモドーロテクニックで一日の効率を最大限に高めましょう。", latestInsights: "最新の記事", readMore: "続きを読む →", footerRights: "© 2024 ポモドーロ・インサイト。全著作権所有。", aboutTitle: "ポモドーロ・インサイトについて", aboutContent: "ポモドーロ・インサイトは、忙しい現代人がより効率的に時間を管理し、生活の質を向上させるのを支援するために作成された、プロフェッショナルな生産性コミュニティです。", contactTitle: "お問い合わせ", contactDesc: "提휴に関するお問い合わせやご提案がございましたら、以下のメールアドレス까지ご連絡ください。", start: "開始", pause: "一時停止", timeUp: "時間が経過しました！", post1Title: "ポモドーロ・テクニックとは？", post1Desc: "なぜ25分の集中と5分の休憩が脳に良いのでしょうか？", 
         post1Full: `<h1 class="section-title">ポモドーロ・テクニックとは？</h1><p>ポモドーロ・テクニックは、1980年代後半にフランチェスコ・シリロによって提案された時間管理術です。</p><h2>1. 基本原則</h2><ul><li>25分間、1つの作業に集中します。</li><li>5分間の短い休憩を取ります。</li><li>4回繰り返した後、15〜30分の長い休憩を取ります。</li></ul>`,
@@ -86,18 +89,75 @@ const translations = {
         post3Title: "预防职业倦怠的正确休息方式", post3Desc: "看手机不叫休息。学习如何有效度过5分钟。",
         post3Full: `<h1 class="section-title">预防职业倦怠的正确休息方式</h1><p>真正的休息是完全切断对大脑的刺激。</p><h2>1. 闭目冥想</h2><p>闭上眼睛5分钟，专注于呼吸，有助于大脑整理信息。</p>`
     },
-    es: { logo: "Pomodoro Insight", home: "Inicio", blog: "Blog", about: "Acerca de", contact: "Contacto", heroTitle: "Temporizador de Enfoque", heroDesc: "Maximiza tu eficiencia diaria con la técnica Pomodoro.", latestInsights: "Últimas publicaciones", readMore: "Leer más →", footerRights: "© 2024 Pomodoro Insight. Todos los derechos reservados.", aboutTitle: "Sobre Pomodoro Insight", aboutContent: "Comunidad de productividad profesional.", contactTitle: "Contáctenos", contactDesc: "Envíenos un correo electrónico.", start: "INICIAR", pause: "PAUSA", timeUp: "¡Tiempo agotado!", post1Title: "¿Qué es la técnica Pomodoro?", post1Desc: "Análisis de los principios fundamentales.", post2Title: "Configuración del entorno", post2Desc: "Guía para mejorar la eficiencia.", post3Title: "Métodos de descanso", post3Desc: "Cómo descansar de verdad." },
-    fr: { logo: "Pomodoro Insight", home: "Accueil", blog: "Blog", about: "À propos", contact: "Contact", heroTitle: "Minuteur de Focus", heroDesc: "Maximisez votre efficacité quotidienne avec la technique Pomodoro.", latestInsights: "Derniers articles", readMore: "Lire la suite →", footerRights: "© 2024 Pomodoro Insight. Tous droits réservés.", aboutTitle: "À propos de Pomodoro Insight", aboutContent: "Communauté de productivité professionnelle.", contactTitle: "Contactez-nous", contactDesc: "Contactez-nous par e-mail.", start: "DÉMARRER", pause: "PAUSE", timeUp: "Le temps est écoulé !", post1Title: "C'est quoi la technique Pomodoro ?", post1Desc: "Analyse des principes de base.", post2Title: "Configuration de l'environnement", post2Desc: "Guide pour plus d'efficacité.", post3Title: "Méthodes de repos", post3Desc: "Comment bien se reposer." },
-    de: { logo: "Pomodoro Insight", home: "Start", blog: "Blog", about: "Über", contact: "Kontakt", heroTitle: "Fokus-Timer", heroDesc: "Maximieren Sie Ihre tägliche Effizienz mit der Pomodoro-Technik.", latestInsights: "Neueste Erkenntnisse", readMore: "Mehr lesen →", footerRights: "© 2024 Pomodoro Insight. Alle Rechte vorbehalten.", aboutTitle: "Über Pomodoro Insight", aboutContent: "Produktive Gemeinschaft.", contactTitle: "Kontakt", contactDesc: "Schreiben Sie uns.", start: "START", pause: "PAUSE", timeUp: "Zeit ist um!", post1Title: "Was ist die Pomodoro-Technik?", post1Desc: "Kernprinzipien und Effekte.", post2Title: "Umgebung einrichten", post2Desc: "Effizienz steigern.", post3Title: "Richtig ausruhen", post3Desc: "Burnout vermeiden." },
-    ru: { logo: "Pomodoro Insight", home: "Главная", blog: "Блог", about: "О нас", contact: "Контакт", heroTitle: "Таймер фокуса", heroDesc: "Максимизируйте свою ежедневную эффективность с помощью техники Помодоро.", latestInsights: "Последние статьи", readMore: "Читать далее →", footerRights: "© 2024 Pomodoro Insight. Все права защищены.", aboutTitle: "О Pomodoro Insight", aboutContent: "Профессиональное сообщество.", contactTitle: "Контакт", contactDesc: "Пишите нам.", start: "СТАРТ", pause: "ПАУЗА", timeUp: "Время вышло!", post1Title: "Что такое техника Помодоро?", post1Desc: "Основные принципы.", post2Title: "Настройка окружения", post2Desc: "Повышение эффективности.", post3Title: "Правильный отдых", post3Desc: "Профилактика выгорания." },
-    pt: { logo: "Pomodoro Insight", home: "Início", blog: "Blog", about: "Sobre", contact: "Contato", heroTitle: "Temporizador de Foco", heroDesc: "Maximize sua eficiência diária com a técnica Pomodoro.", latestInsights: "Últimas postagens", readMore: "Ler mais →", footerRights: "© 2024 Pomodoro Insight. Todos os direitos reservados.", aboutTitle: "Sobre Pomodoro Insight", aboutContent: "Comunidade de produtividade.", contactTitle: "Contato", contactDesc: "Envie-nos um e-mail.", start: "INICIAR", pause: "PAUSA", timeUp: "O tempo acabou!", post1Title: "O que é a técnica Pomodoro?", post1Desc: "Princípios básicos.", post2Title: "Configuração do ambiente", post2Desc: "Guia de eficiência.", post3Title: "Descanso correto", post3Desc: "Evitar o burnout." },
-    vi: { logo: "Pomodoro Insight", home: "Trang chủ", blog: "Blog", about: "Giới thiệu", contact: "Liên hệ", heroTitle: "Đồng hồ tập trung", heroDesc: "Tối đa hóa hiệu quả hàng ngày của bạn với phương pháp Pomodoro.", latestInsights: "Thông tin mới nhất", readMore: "Xem thêm →", footerRights: "© 2024 Pomodoro Insight. Bảo lưu mọi quyền.", aboutTitle: "Về Pomodoro Insight", aboutContent: "Cộng đồng năng suất.", contactTitle: "Liên hệ", contactDesc: "Gửi email cho chúng tôi.", start: "BẮT ĐẦU", pause: "TẠM DỪNG", timeUp: "Hết giờ!", post1Title: "Phương pháp Pomodoro là gì?", post1Desc: "Nguyên lý cơ bản.", post2Title: "Thiết lập môi trường", post2Desc: "Hướng dẫn hiệu quả.", post3Title: "Nghỉ ngơi đúng cách", post3Desc: "Tránh kiệt sức." },
-    ar: { logo: "بومودورو إنسايت", home: "الرئيسية", blog: "مدونة", about: "حول", contact: "اتصال", heroTitle: "موقت التركيز", heroDesc: "ضاعت كفاءتك اليومية مع تقنية بومودورو.", latestInsights: "أحدث الرؤى", readMore: "اقرأ المزيد →", footerRights: "© 2024 بومودورو إنسايت. جميع الحقوق محفوظة.", aboutTitle: "حول بومودورو إنسايت", aboutContent: "مجتمع الإنتاجية.", contactTitle: "اتصل بنا", contactDesc: "تواصل معنا.", start: "ابدأ", pause: "إيقاف مؤقت", timeUp: "انتهى الوقت!", post1Title: "ما هي تقنية بومودورو؟", post1Desc: "المبادئ الأساسية.", post2Title: "إعداد البيئة", post2Desc: "دليل الكفاءة.", post3Title: "الراحة الصحيحة", post3Desc: "تجنب الاحتراق." }
+    es: { 
+        logo: "Pomodoro Insight", home: "Inicio", blog: "Blog", about: "Acerca de", contact: "Contacto", privacy: "Política de Privacidad", heroTitle: "Temporizador de Enfoque", heroDesc: "Maximiza tu eficiencia diaria con la técnica Pomodoro.", latestInsights: "Últimas publicaciones", readMore: "Leer más →", footerRights: "© 2024 Pomodoro Insight. Todos los derechos reservados.", aboutTitle: "Sobre Pomodoro Insight", aboutContent: "Pomodoro Insight es una comunidad de productividad profesional creada para ayudar a las personas ocupadas a gestionar su tiempo de forma más eficiente y mejorar su calidad de vida.", contactTitle: "Contáctenos", contactDesc: "Si tiene alguna consulta o sugerencia de asociación, contáctenos por correo electrónico a continuación.", start: "INICIAR", pause: "PAUSA", timeUp: "¡Tiempo agotado!", 
+        post1Title: "¿Qué es la técnica Pomodoro?", post1Desc: "Análisis de los principios fundamentales.", 
+        post2Title: "Configuración del entorno", post2Desc: "Guía para mejorar la eficiencia.", 
+        post3Title: "Métodos de descanso", post3Desc: "Cómo descansar de verdad.",
+        post1Full: `<h1 class="section-title">¿Qué es la técnica Pomodoro?</h1><p>La técnica Pomodoro es un método de gestión del tiempo desarrollado por Francesco Cirillo a finales de la década de 1980.</p><h2>1. Principios básicos</h2><ul><li>Concéntrate en una tarea durante 25 minutos.</li><li>Tómate un breve descanso de 5 minutos.</li><li>Después de 4 ciclos, tómate un descanso largo de 15 a 30 minutos.</li></ul>`,
+        post2Full: `<h1 class="section-title">Configuración del entorno para un enfoque del 200%</h1><p>Organizar los espacios físicos y digitales es clave para mantener la concentración.</p><h2>1. Limpieza del escritorio</h2><p>Retira todo lo que no esté relacionado con la tarea actual y mantén una buena iluminación.</p>`,
+        post3Full: `<h1 class="section-title">Métodos de descanso correctos para prevenir el agotamiento</h1><p>El verdadero descanso significa desconectar completamente los estímulos al cerebro.</p><h2>1. Meditación con los ojos cerrados</h2><p>Cerrar los ojos durante 5 minutos y concentrarse en la respiración ayuda al cerebro a organizar la información.</p>`
+    },
+    fr: { 
+        logo: "Pomodoro Insight", home: "Accueil", blog: "Blog", about: "À propos", contact: "Contact", privacy: "Politique de confidentialité", heroTitle: "Minuteur de Focus", heroDesc: "Maximisez votre efficacité quotidienne avec la technique Pomodoro.", latestInsights: "Derniers articles", readMore: "Lire la suite →", footerRights: "© 2024 Pomodoro Insight. Tous droits réservés.", aboutTitle: "À propos de Pomodoro Insight", aboutContent: "Pomodoro Insight est une communauté de productivité professionnelle créée pour aider les gens modernes et occupés à gérer leur temps plus efficacement et à améliorer leur qualité de vie.", contactTitle: "Contactez-nous", contactDesc: "Si vous avez des demandes de partenariat ou des suggestions, veuillez nous contacter par e-mail ci-dessous.", start: "DÉMARRER", pause: "PAUSE", timeUp: "Le temps est écoulé !", 
+        post1Title: "C'est quoi la technique Pomodoro ?", post1Desc: "Analyse des principes de base.", 
+        post2Title: "Configuration de l'environnement", post2Desc: "Guide pour plus d'efficacité.", 
+        post3Title: "Méthodes de repos", post3Desc: "Comment bien se reposer.",
+        post1Full: `<h1 class="section-title">Qu'est-ce que la technique Pomodoro ?</h1><p>La technique Pomodoro est une méthode de gestion du temps développée par Francesco Cirillo à la fin des années 1980.</p><h2>1. Principes de base</h2><ul><li>Concentrez-vous sur une tâche pendant 25 minutes.</li><li>Faites une courte pause de 5 minutes.</li><li>Après 4 cycles, faites une longue pause de 15 à 30 minutes.</li></ul>`,
+        post2Full: `<h1 class="section-title">Configuration de l'environnement pour une concentration à 200%</h1><p>L'organisation des espaces physiques et numériques est essentielle pour maintenir la concentration.</p><h2>1. Nettoyage du bureau</h2><p>Retirez tout ce qui n'est pas lié à la tâche en cours et maintenez un bon éclairage.</p>`,
+        post3Full: `<h1 class="section-title">Méthodes de repos correctes pour prévenir l'épuisement professionnel</h1><p>Le vrai repos signifie couper complètement les entrées vers le cerveau.</p><h2>1. Méditation les yeux fermés</h2><p>Fermer les yeux pendant 5 minutes et se concentrer sur la respiration aide le cerveau à organiser les informations.</p>`
+    },
+    de: { 
+        logo: "Pomodoro Insight", home: "Start", blog: "Blog", about: "Über", contact: "Kontakt", privacy: "Datenschutzrichtlinie", heroTitle: "Fokus-Timer", heroDesc: "Maximieren Sie Ihre tägliche Effizienz mit der Pomodoro-Technik.", latestInsights: "Neueste Erkenntnisse", readMore: "Mehr lesen →", footerRights: "© 2024 Pomodoro Insight. Alle Rechte vorbehalten.", aboutTitle: "Über Pomodoro Insight", aboutContent: "Pomodoro Insight ist eine professionelle Produktivitäts-Community, die vielbeschäftigten modernen Menschen hilft, ihre Zeit effizienter zu verwalten und ihre Lebensqualität zu verbessern.", contactTitle: "Kontakt", contactDesc: "Wenn Sie Partnerschaftsanfragen oder Vorschläge haben, kontaktieren Sie uns bitte per E-Mail unten.", start: "START", pause: "PAUSE", timeUp: "Zeit ist um!", 
+        post1Title: "Was ist die Pomodoro-Technik?", post1Desc: "Kernprinzipien und Effekte.", 
+        post2Title: "Umgebung einrichten", post2Desc: "Effizienz steigern.", 
+        post3Title: "Richtig ausruhen", post3Desc: "Burnout vermeiden.",
+        post1Full: `<h1 class="section-title">Was ist die Pomodoro-Technik?</h1><p>Die Pomodoro-Technik ist eine Zeitmanagement-Methode, die Ende der 1980er Jahre von Francesco Cirillo entwickelt wurde.</p><h2>1. Grundprinzipien</h2><ul><li>Konzentrieren Sie sich 25 Minuten lang auf eine Aufgabe.</li><li>Machen Sie eine kurze 5-minütige Pause.</li><li>Machen Sie nach 4 Zyklen eine lange Pause von 15-30 Minuten.</li></ul>`,
+        post2Full: `<h1 class="section-title">Umgebungseinrichtung für 200% Fokus</h1><p>Die Organisation physischer und digitaler Räume ist der Schlüssel zur Aufrechterhaltung der Konzentration.</p><h2>1. Schreibtisch aufräumen</h2><p>Entfernen Sie alles, was nichts mit der aktuellen Aufgabe zu tun hat, und sorgen Sie für gute Beleuchtung.</p>`,
+        post3Full: `<h1 class="section-title">Richtige Ruhemethoden zur Vermeidung von Burnout</h1><p>Wahre Ruhe bedeutet, die Reizufuhr zum Gehirn vollständig zu unterbrechen.</p><h2>1. Meditation mit geschlossenen Augen</h2><p>Wenn Sie die Augen für 5 Minuten schließen und sich auf die Atmung konzentrieren, kann das Gehirn Informationen besser ordnen.</p>`
+    },
+    ru: { 
+        logo: "Pomodoro Insight", home: "Главная", blog: "Блог", about: "О нас", contact: "Контакт", privacy: "Политика конфиденциальности", heroTitle: "Таймер фокуса", heroDesc: "Максимизируйте свою ежедневную эффективность с помощью техники Помодоро.", latestInsights: "Последние статьи", readMore: "Читать далее →", footerRights: "© 2024 Pomodoro Insight. Все права защищены.", aboutTitle: "О Pomodoro Insight", aboutContent: "Pomodoro Insight — это профессиональное сообщество по продуктивности, созданное для того, чтобы помочь занятым современным людям более эффективно управлять своим временем и улучшать качество своей жизни.", contactTitle: "Контакт", contactDesc: "Если у вас есть какие-либо вопросы по партнерству или предложения, свяжитесь с нами по электронной почте ниже.", start: "СТАРТ", pause: "ПАУЗА", timeUp: "Время вышло!", 
+        post1Title: "Что такое техника Помодоро?", post1Desc: "Основные принципы.", 
+        post2Title: "Настройка окружения", post2Desc: "Повышение эффективности.", 
+        post3Title: "Правильный отдых", post3Desc: "Профилактика выгорания.",
+        post1Full: `<h1 class="section-title">Что такое техника Помодоро?</h1><p>Техника Помодоро — это метод управления временем, разработанный Франческо Чирилло в конце 1980-х годов.</p><h2>1. Основные принципы</h2><ul><li>Сосредоточьтесь на одной задаче в течение 25 минут.</li><li>Сделайте короткий 5-минутный перерыв.</li><li>После 4 циклов сделайте длинный перерыв на 15–30 минут.</li></ul>`,
+        post2Full: `<h1 class="section-title">Настройка окружения для 200% концентрации</h1><p>Организация физического и цифрового пространства — ключ к поддержанию концентрации.</p><h2>1. Очистка рабочего стола</h2><p>Уберите все, что не относится к текущей задаче, и обеспечьте хорошее освещение.</p>`,
+        post3Full: `<h1 class="section-title">Правильные методы отдыха для предотвращения выгорания</h1><p>Настоящий отдых означает полное прекращение поступления информации в мозг.</p><h2>1. Медитация с закрытыми глазами</h2><p>Закрытие глаз на 5 минут и концентрация на дыхании помогают мозгу упорядочить информацию.</p>`
+    },
+    pt: { 
+        logo: "Pomodoro Insight", home: "Início", blog: "Blog", about: "Sobre", contact: "Contato", privacy: "Política de Privacidade", heroTitle: "Temporizador de Foco", heroDesc: "Maximize sua eficiência diária com a técnica Pomodoro.", latestInsights: "Últimas postagens", readMore: "Ler mais →", footerRights: "© 2024 Pomodoro Insight. Todos os direitos reservados.", aboutTitle: "Sobre Pomodoro Insight", aboutContent: "O Pomodoro Insight é uma comunidade de produtividade profissional criada para ajudar pessoas ocupadas a gerenciar seu tempo de forma mais eficiente e melhorar sua qualidade de vida.", contactTitle: "Contato", contactDesc: "Se você tiver alguma dúvida sobre parcerias ou sugestões, entre em contato conosco pelo e-mail abaixo.", start: "INICIAR", pause: "PAUSA", timeUp: "O tempo acabou!", 
+        post1Title: "O que é a técnica Pomodoro?", post1Desc: "Princípios básicos.", 
+        post2Title: "Configuração do ambiente", post2Desc: "Guia de eficiência.", 
+        post3Title: "Descanso correto", post3Desc: "Evitar o burnout.",
+        post1Full: `<h1 class="section-title">O que é a técnica Pomodoro?</h1><p>A técnica Pomodoro é um método de gestão de tempo desenvolvido por Francesco Cirillo no final dos anos 1980.</p><h2>1. Princípios Básicos</h2><ul><li>Concentre-se em uma tarefa por 25 minutos.</li><li>Faça uma pausa curta de 5 minutos.</li><li>Após 4 ciclos, faça uma pausa longa de 15 a 30 minutos.</li></ul>`,
+        post2Full: `<h1 class="section-title">Configuração do Ambiente para 200% de Foco</h1><p>Organizar espaços físicos e digitais é fundamental para manter a concentração.</p><h2>1. Limpeza da Mesa</h2><p>Remova tudo o que não estiver relacionado à tarefa atual e mantenha uma boa iluminação.</p>`,
+        post3Full: `<h1 class="section-title">Métodos de Descanso Corretos para Prevenir o Burnout</h1><p>O descanso verdadeiro significa cortar completamente as entradas para o cérebro.</p><h2>1. Meditação de Olhos Fechados</h2><p>Fechar os olhos por 5 minutos e focar na respiração ajuda o cérebro a organizar as informações.</p>`
+    },
+    vi: { 
+        logo: "Pomodoro Insight", home: "Trang chủ", blog: "Blog", about: "Giới thiệu", contact: "Liên hệ", privacy: "Chính sách bảo mật", heroTitle: "Đồng hồ tập trung", heroDesc: "Tối đa hóa hiệu quả hàng ngày của bạn với phương pháp Pomodoro.", latestInsights: "Thông tin mới nhất", readMore: "Xem thêm →", footerRights: "© 2024 Pomodoro Insight. Bảo lưu mọi quyền.", aboutTitle: "Về Pomodoro Insight", aboutContent: "Pomodoro Insight là một cộng đồng năng suất chuyên nghiệp được tạo ra để giúp những người hiện đại bận rộn quản lý thời gian hiệu quả hơn và cải thiện chất lượng cuộc sống của họ.", contactTitle: "Liên hệ", contactDesc: "Nếu bạn có bất kỳ câu hỏi hoặc đề xuất hợp tác nào, vui lòng liên hệ với chúng tôi qua email bên dưới.", start: "BẮT ĐẦU", pause: "TẠM DỪNG", timeUp: "Hết giờ!", 
+        post1Title: "Phương pháp Pomodoro là gì?", post1Desc: "Nguyên lý cơ bản.", 
+        post2Title: "Thiết lập môi trường", post2Desc: "Hướng dẫn hiệu quả.", 
+        post3Title: "Nghỉ ngơi đúng cách", post3Desc: "Tránh kiệt sức.",
+        post1Full: `<h1 class="section-title">Phương pháp Pomodoro là gì?</h1><p>Phương pháp Pomodoro là một phương pháp quản lý thời gian được phát triển bởi Francesco Cirillo vào cuối những năm 1980.</p><h2>1. Nguyên tắc cơ bản</h2><ul><li>Tập trung vào một công việc trong 25 phút.</li><li>Nghỉ ngắn 5 phút.</li><li>Sau 4 chu kỳ, hãy nghỉ dài từ 15-30 phút.</li></ul>`,
+        post2Full: `<h1 class="section-title">Thiết lập môi trường để tập trung 200%</h1><p>Tổ chức không gian vật lý và kỹ thuật số là chìa khóa để duy trì sự tập trung.</p><h2>1. Dọn dẹp bàn làm việc</h2><p>Loại bỏ mọi thứ không liên quan đến nhiệm vụ hiện tại và duy trì ánh sáng tốt.</p>`,
+        post3Full: `<h1 class="section-title">Phương pháp nghỉ ngơi đúng cách để tránh kiệt sức</h1><p>Nghỉ ngơi thực sự có nghĩa là cắt đứt hoàn toàn đầu vào cho não bộ.</p><h2>1. Thiền nhắm mắt</h2><p>Nhắm mắt trong 5 phút và tập trung vào hơi thở giúp não bộ sắp xếp thông tin.</p>`
+    },
+    ar: { 
+        logo: "بومودورو إنسايت", home: "الرئيسية", blog: "مدونة", about: "حول", contact: "اتصال", privacy: "سياسة الخصوصية", heroTitle: "موقت التركيز", heroDesc: "ضاعف كفاءتك اليومية مع تقنية بومودورو.", latestInsights: "أحدث الرؤى", readMore: "اقرأ المزيد →", footerRights: "© 2024 بومودورو إنسايت. جميع الحقوق محفوظة.", aboutTitle: "حول بومودورو إنسايت", aboutContent: "بومودورو إنسايت هو مجتمع إنتاجية احترافي تم إنشاؤه لمساعدة الأشخاص العصريين المشغولين على إدارة وقتهم بشكل أكثر كفاءة وتحسين جودة حياتهم.", contactTitle: "اتصل بنا", contactDesc: "إذا كان لديك أي استفسارات أو اقتراحات بشأن الشراكة، فيرجى الاتصال بنا عبر البريد الإلكتروني أدناه.", start: "ابدأ", pause: "إيقاف مؤقت", timeUp: "انتهى الوقت!", 
+        post1Title: "ما هي تقنية بومودورو؟", post1Desc: "المبادئ الأساسية.", 
+        post2Title: "إعداد البيئة", post2Desc: "دليل الكفاءة.", 
+        post3Title: "الراحة الصحيحة", post3Desc: "تجنب الاحتراق.",
+        post1Full: `<h1 class="section-title">ما هي تقنية بومودورو؟</h1><p>تقنية بومودورو هي طريقة لإدارة الوقت طورها فرانشيسكو سيريلو في أواخر الثمانينيات.</p><h2>1. المبادئ الأساسية</h2><ul><li>التركيز على مهمة واحدة لمدة 25 دقيقة.</li><li>خذ استراحة قصيرة لمدة 5 دقائق.</li><li>بعد 4 دورات، خذ استراحة طويلة لمدة 15-30 دقيقة.</li></ul>`,
+        post2Full: `<h1 class="section-title">إعداد البيئة لتركيز بنسبة 200%</h1><p>يعد تنظيم المساحات المادية والرقمية أمرًا أساسيًا للحفاظ على التركيز.</p><h2>1. تنظيف المكتب</h2><p>قم بإزالة كل ما لا يتعلق بالمهمة الحالية وحافظ على إضاءة جيدة.</p>`,
+        post3Full: `<h1 class="section-title">طرق الراحة الصحيحة لمنع الاحتراق</h1><p>الراحة الحقيقية تعني قطع المدخلات عن الدماغ تمامًا.</p><h2>1. التأمل مع إغلاق العينين</h2><p>إغلاق عينيك لمدة 5 دقائق والتركيز على التنفس يساعد الدماغ على تنظيم المعلومات.</p>`
+    }
 };
 
 function applyLanguage(lang) {
     localStorage.setItem('preferredLang', lang);
     const t = translations[lang] || translations['en'];
+    const path = window.location.pathname;
     
     // UI Elements Update
     document.querySelectorAll('.logo').forEach(el => el.textContent = t.logo);
@@ -112,56 +172,49 @@ function applyLanguage(lang) {
         else if (href.includes('privacy.html')) link.textContent = t.privacy || 'Privacy Policy';
     });
 
-    const heroTitle = document.querySelector('.hero .section-title');
-    if (heroTitle) heroTitle.textContent = t.heroTitle;
-    const heroDesc = document.querySelector('.hero p');
-    if (heroDesc && !window.location.pathname.includes('about.html') && !window.location.pathname.includes('contact.html')) {
-        heroDesc.textContent = t.heroDesc;
-    }
-
-    const sectionTitles = document.querySelectorAll('.section-title');
-    if (sectionTitles[1]) sectionTitles[1].textContent = t.latestInsights;
-    document.querySelectorAll('.read-more').forEach(el => el.textContent = t.readMore);
-
-    // Blog Cards Translation
-    const blogCards = document.querySelectorAll('.blog-card');
-    if (blogCards.length >= 3) {
-        // Card 1
-        blogCards[0].querySelector('h3').textContent = t.post1Title;
-        blogCards[0].querySelector('p').textContent = t.post1Desc;
-        // Card 2
-        blogCards[1].querySelector('h3').textContent = t.post2Title;
-        blogCards[1].querySelector('p').textContent = t.post2Desc;
-        // Card 3
-        blogCards[2].querySelector('h3').textContent = t.post3Title;
-        blogCards[2].querySelector('p').textContent = t.post3Desc;
-    }
-
-    if (window.location.pathname.includes('about.html')) {
+    // Page-specific content
+    if (path.includes('about.html')) {
         const title = document.querySelector('main .section-title');
         if (title) title.textContent = t.aboutTitle;
         const desc = document.querySelector('.hero p');
         if (desc) desc.textContent = t.aboutContent;
-    }
-
-    if (window.location.pathname.includes('contact.html')) {
+    } else if (path.includes('contact.html')) {
         const title = document.querySelector('main .section-title');
         if (title) title.textContent = t.contactTitle;
         const desc = document.querySelector('.hero p');
         if (desc) desc.textContent = t.contactDesc;
-    }
-
-    // Full Post Content Translation
-    if (window.location.pathname.includes('post-1.html')) {
+    } else if (path.includes('post-1.html')) {
         const article = document.querySelector('article.hero');
         if (article && t.post1Full) article.innerHTML = t.post1Full;
-    } else if (window.location.pathname.includes('post-2.html')) {
+    } else if (path.includes('post-2.html')) {
         const article = document.querySelector('article.hero');
         if (article && t.post2Full) article.innerHTML = t.post2Full;
-    } else if (window.location.pathname.includes('post-3.html')) {
+    } else if (path.includes('post-3.html')) {
         const article = document.querySelector('article.hero');
         if (article && t.post3Full) article.innerHTML = t.post3Full;
+    } else {
+        // Home/Default Page
+        const heroTitle = document.querySelector('.hero .section-title');
+        if (heroTitle) heroTitle.textContent = t.heroTitle;
+        const heroDesc = document.querySelector('.hero p');
+        if (heroDesc) heroDesc.textContent = t.heroDesc;
+
+        const sectionTitles = document.querySelectorAll('.section-title');
+        if (sectionTitles[1]) sectionTitles[1].textContent = t.latestInsights;
+        
+        // Blog Cards Translation
+        const blogCards = document.querySelectorAll('.blog-card');
+        if (blogCards.length >= 3) {
+            blogCards[0].querySelector('h3').textContent = t.post1Title;
+            blogCards[0].querySelector('p').textContent = t.post1Desc;
+            blogCards[1].querySelector('h3').textContent = t.post2Title;
+            blogCards[1].querySelector('p').textContent = t.post2Desc;
+            blogCards[2].querySelector('h3').textContent = t.post3Title;
+            blogCards[2].querySelector('p').textContent = t.post3Desc;
+        }
     }
+
+    document.querySelectorAll('.read-more').forEach(el => el.textContent = t.readMore);
 
     const footerP = document.querySelector('footer p');
     if (footerP) footerP.textContent = t.footerRights;
@@ -171,7 +224,14 @@ function applyLanguage(lang) {
     }
 
     // Set document title language
-    document.title = `${t.heroTitle} | ${t.logo}`;
+    let pageTitle = t.heroTitle;
+    if (path.includes('about.html')) pageTitle = t.aboutTitle;
+    else if (path.includes('contact.html')) pageTitle = t.contactTitle;
+    else if (path.includes('post-1.html')) pageTitle = t.post1Title;
+    else if (path.includes('post-2.html')) pageTitle = t.post2Title;
+    else if (path.includes('post-3.html')) pageTitle = t.post3Title;
+    
+    document.title = `${pageTitle} | ${t.logo}`;
 }
 
 // Initialization and Event Listeners
