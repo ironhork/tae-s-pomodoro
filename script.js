@@ -49,7 +49,7 @@ function resetTimer() {
 // Translations Data (Full Support for 12 Languages)
 const translations = {
     ko: { 
-        logo: "Pomodoro Insight", home: "홈", blog: "블로그", about: "소개", contact: "문의", heroTitle: "포커스 타이머", heroDesc: "포모도로 기법으로 오늘 하루의 효율을 극대화하세요.", latestInsights: "최신 인사이트", readMore: "전문 읽기 →", footerRights: "© 2024 Pomodoro Insight. 모든 권리 보유.", aboutTitle: "Pomodoro Insight 소개", aboutContent: "Pomodoro Insight는 바쁜 현대인들이 더 효율적으로 시간을 관리하고, 삶의 질을 높일 수 있도록 돕기 위해 만들어진 전문 생산성 커뮤니티입니다.", contactTitle: "문의하기", contactDesc: "제휴 문의나 제안 사항이 있으시면 아래 이메일로 연락 주시기 바랍니다.", start: "시작", pause: "일시정지", timeUp: "시간이 다 되었습니다!",
+        logo: "Pomodoro Insight", home: "홈", blog: "블로그", about: "소개", contact: "문의", privacy: "개인정보처리방침", heroTitle: "포커스 타이머", heroDesc: "포모도로 기법으로 오늘 하루의 효율을 극대화하세요.", latestInsights: "최신 인사이트", readMore: "전문 읽기 →", footerRights: "© 2024 Pomodoro Insight. 모든 권리 보유.", aboutTitle: "Pomodoro Insight 소개", aboutContent: "Pomodoro Insight는 바쁜 현대인들이 더 효율적으로 시간을 관리하고, 삶의 질을 높일 수 있도록 돕기 위해 만들어진 전문 생산성 커뮤니티입니다.", contactTitle: "문의하기", contactDesc: "제휴 문의나 제안 사항이 있으시면 아래 이메일로 연락 주시기 바랍니다.", start: "시작", pause: "일시정지", timeUp: "시간이 다 되었습니다!",
         post1Title: "포모도로 기법이란? 과학적 근거와 효과", post1Desc: "왜 25분 집중하고 5분 쉬는 것이 뇌 과학적으로 유리할까요? 포모도로 기법의 핵심 원리와 도입 효과를 분석합니다.",
         post2Title: "집중력을 200% 높이는 환경 설정", post2Desc: "공부나 업무 효율을 높이기 위해 책상 위와 디지털 환경을 어떻게 정리해야 하는지 구체적인 가이드를 제공합니다.",
         post3Title: "번아웃 방지를 위한 올바른 휴식법", post3Desc: "단순히 스마트폰을 보는 것은 휴식이 아닙니다. 포모도로 사이클 사이의 5분을 가장 가치 있게 보내는 방법을 소개합니다."
@@ -83,12 +83,15 @@ function applyLanguage(lang) {
     
     // UI Elements Update
     document.querySelectorAll('.logo').forEach(el => el.textContent = t.logo);
-    document.querySelectorAll('nav ul li a').forEach(link => {
+    // Navigation and Footer Links Update
+    const allLinks = document.querySelectorAll('nav ul li a, .footer-links a');
+    allLinks.forEach(link => {
         const href = link.getAttribute('href');
         if (href.includes('index.html')) link.textContent = t.home;
         else if (href.includes('blog.html')) link.textContent = t.blog;
         else if (href.includes('about.html')) link.textContent = t.about;
         else if (href.includes('contact.html')) link.textContent = t.contact;
+        else if (href.includes('privacy.html')) link.textContent = t.privacy || 'Privacy Policy';
     });
 
     const heroTitle = document.querySelector('.hero .section-title');
